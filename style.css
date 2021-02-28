@@ -18,7 +18,7 @@
     width: 100%;
     height: 600px;
     background: linear-gradient(rgba(36, 36, 36, 0.5), rgba(36, 36, 36, 0.5)),
-        url("http://getwallpapers.com/wallpaper/full/d/5/5/1442708-hd-night-sky-wallpaper-1920x1200-for-android-tablet.jpg");
+        url(Background.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
