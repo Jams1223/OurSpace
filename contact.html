@@ -12,10 +12,12 @@
 />
 <link href="style.css" rel="stylesheet" />
 <link rel="icon" href="Globe.jpg">
-
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 
-<body>
+<body class = "contact">
     
 
 <nav class="navbar navbar-expand-sm navbar-light" style="background-color: #e3f2fd;"> 
@@ -45,86 +47,38 @@
         </ul>
     </div>
 </nav>
+<!------ Include the above in your HEAD tag ---------->
 
-
-
-<div class="container-fluid">  <!-- Our Mission Section-->
-    <div class="row"> 
-        <div class="col mt-5 mission">
-            <h1 class="centerTextHorizontal text-pad"> Our Mission</h1>
-            <br>
-            <h1 class="text-center"> At OurSpace, as a non-profit organization we aim to provide students with the resources
-                that they need to suceed academically
-        </div>
-
-    </div>
+<div class="container contact-form">
+            <div class="contact-image">
+                <img src="https://image.ibb.co/kUagtU/rocket_contact.png" alt="rocket_contact"/>
+            </div>
+            <form method="post">
+                <h3>Drop Us a Message</h3>
+               <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <input type="text" name="txtName" class="form-control" placeholder="Your Name *" value="" />
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="txtEmail" class="form-control" placeholder="Your Email *" value="" />
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="txtPhone" class="form-control" placeholder="Your Phone Number *" value="" />
+                        </div>
+                        <div class="form-group">
+                            <input type="button" name="" class="btnContact" value="Send Message" />
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <textarea name="txtMsg" class="form-control" placeholder="Your Message *" style="width: 100%; height: 150px;"></textarea>
+                        </div>
+                    </div>
+                </div>
+            </form>
 </div>
 
-<div class="container">
-
-    <div class="row">
-        
-            <h1 class="text-center mt-4">Our Team</h1>
-
-    </div>
-
-<div class="row mt-5">
-    <div class= "col md-6">
-        <div class="img-container">
-            <img class="portrait" src="developer.jpeg">
-            <div class="overlay">
-            <span class ="textOverlay"><h1 class="centerTextHorizontal">App Developers</h1>
-                From the User Interface to the Live Chats, Our developers ensure quality user experience
-            </span>
-            </div>
-        </div>
-    </div>
-
-    <div class= "col md-6">
-        <div class="img-container">
-            <img class="portrait" src="tutor.jpeg">
-            <div class="overlay">
-            <span><h1 class="centerTextHorizontal">Tutors</h1>
-                Provides Users with quality guidance and instruction on any topic
-            </span>
-            </div>
-        </div>
-    </div>
-
-</div>
-
-
-
-
-<div class="row">
-
-    <div class= "col md-6 mt-5">
-        <div class="img-container">
-            <img class="portrait" src="volunteer.jpeg">
-            <div class="overlay">
-              <span>
-                <h1 class=centerTextHorizontal>Volunteers</h1>
-                Answers questions posted by users in any subject and offers detailed explantions in a timely manner
-              </span>
-            </div>
-          </div>
-    </div>
-    <div class= "col md-6 mt-5">
-        <div class="img-container">
-            <img class="portrait" src="brand-ambassador.jpeg">
-            <div class="overlay">
-              <span><h1 class=centerTextHorizontal>Brand Ambassadors</h1>
-                Spreads our awareness services to students, like you, who need extra academic assistance
-            </span>
-            </div>
-          </div>
-    </div>
-    <!--
-        Fix hover action from image, add text portion under images 
-    -->
-</div>
-
-</div>
 
 
 
