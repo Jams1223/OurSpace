@@ -10,6 +10,9 @@
     width:100%;
     
 }
+#navBarPos{
+    position:fixed;
+}
 #navbarmenu {
     padding-left: 10px;
 
@@ -159,7 +162,7 @@
   .img-container{
     position:relative;
     display:inline-block;
-    margin-left:75px;
+    margin-left:25px;
 
   }
   .img-container img{
