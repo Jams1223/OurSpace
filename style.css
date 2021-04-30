@@ -5,18 +5,24 @@
 .ml-10{
     margin-left:25px;
 }
+
 .navbar{
     position:fixed;
     width:100%;
     
 }
+
 #navBarPos{
-    position:fixed;
+    position: fixed;
+    left: 50%;
+    top: 0%;
+    transform: translateX(-50%);
 }
+
 #navbarmenu {
     padding-left: 10px;
-
 }
+
 .hero {
     color: white;  
     width: 100%;
@@ -88,7 +94,7 @@
     color: white;
     font-weight: normal;
     text-transform: uppercase;
-    letter-spacing:0.250em;
+    letter-spacing:.25em;
 }
 
 .footer .col ul {
@@ -143,6 +149,10 @@
   
 }
 
+.nav-pad{
+    padding-top:50px;
+}
+
 .text {
     font-size: 20px;
 }
@@ -166,7 +176,7 @@
 
   }
   .img-container img{
-    display:block
+    display:block;
 }
    .img-container .overlay{
     position:absolute;
@@ -308,9 +318,10 @@
     font-weight: 600;
     color: #fff;
     cursor: pointer;
+    text-align: left
 }
-.btnContactSubmit
-{
+
+.btnContactSubmit {
     width: 50%;
     border-radius: 1rem;
     padding: 1.5%;
@@ -318,6 +329,7 @@
     background-color: #0062cc;
     border: none;
     cursor: pointer;
+    text-align: left;
 }
 
 h2 {
@@ -326,17 +338,21 @@ h2 {
     font-size: 2.5rem;
     color: #091f2f;
     text-transform: uppercase;
+    text-align: left;
 }
+
 .accordion-section .panel-default > .panel-heading {
     border: 0;
     background: #f4f4f4;
     padding: 0;
 }
+
 .accordion-section .panel-default .panel-title a {
     display: block;
     font-style: italic;
     font-size: 1.5rem;
 }
+
 .accordion-section .panel-default .panel-title a:after {
     font-family: 'FontAwesome';
     font-style: normal;
@@ -346,9 +362,17 @@ h2 {
     float: right;
     margin-top: -12px;
 }
+
 .accordion-section .panel-default .panel-title a.collapsed:after {
     content: "\f107";
 }
+
 .accordion-section .panel-default .panel-body {
     font-size: 1.2rem;
+}
+
+.arrow{
+    height:50px;
+    width:50px;
+
 }
