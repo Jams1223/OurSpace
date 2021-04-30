@@ -9,14 +9,7 @@
 .navbar{
     position:fixed;
     width:100%;
-    
-}
-
-#navBarPos{
-    position: fixed;
-    left: 50%;
-    top: 0%;
-    transform: translateX(-50%);
+    z-index:1;
 }
 
 #navbarmenu {
@@ -374,5 +367,9 @@ h2 {
 .arrow{
     height:50px;
     width:50px;
+    position:static;
+}
 
+.static{
+    position:static;
 }
