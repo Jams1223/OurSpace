@@ -365,11 +365,14 @@ h2 {
 }
 
 .arrow{
-    height:50px;
-    width:50px;
-    position:static;
+    padding-top:30px;
+    width:5%;
+    height:5%;
 }
 
-.static{
-    position:static;
+.hover-text{
+    display:inline-block;
+    font-size: 12px;
+    font-family:sans-serif;
 }
+
