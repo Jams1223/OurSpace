@@ -32,7 +32,7 @@
 }
  
 .gradient-background {
-    background: radial-gradient(#1d6dafb6,#041722); /*(#2830c7, #25274d)*/ /*(rgb(20, 24, 102), #25274d)*/ /*(rgba(20, 24, 102, 0.842), #25274d)*/
+    background: radial-gradient(#1077cab6,#041722); /*#1d33afb6,#041722*/ /*#1d6dafb6,#041722*/ /*(#2830c7, #25274d)*/ /*(rgb(20, 24, 102), #25274d)*/ /*(rgba(20, 24, 102, 0.842), #25274d)*/
     color:#cdeff8;
 }
 
