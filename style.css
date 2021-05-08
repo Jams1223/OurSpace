@@ -1,3 +1,40 @@
+.hero {
+    color: white;  
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: 100%;
+    background-attachment: fixed;
+    margin-bottom: 4rem;
+    justify-content: center;
+    align-items: center;
+    z-index:0;
+    display:inline-block;
+    position:relative;
+    margin:auto;
+}
+
+.overlay {
+    display:inline-block;
+    position: absolute;
+    z-index:1;
+    text-align: center;
+    padding: 20px;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.hero h1 {
+    font-size:80px;
+}
+ 
+.gradient-background {
+    background-image:linear-gradient(to right,rgba(115, 149, 174, 0.692),rgb(4, 17, 34));
+    color:#cdeff8;
+}
+
 .box{
     border:10px solid black;
 }
@@ -8,7 +45,7 @@
 
 .navbar{
     width:100%;
-    z-index:1;
+    z-index:2;
     font-size: 20px;
 }
 
@@ -32,21 +69,6 @@
     color: white;
 }
 
-.hero {
-    color: white;  
-    width: 100%;
-    height: 700px;
-    background: linear-gradient(rgba(36, 36, 36, 0.5), rgba(36, 36, 36, 0.5)),
-        url("Background.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    margin-bottom: 4rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 .center{
     display: block;
@@ -82,6 +104,7 @@
     color: #9ee7fc;
     text-align: center;
     padding-bottom: 10px;
+    max-width:100%;
 }
 
 ul {
@@ -92,15 +115,27 @@ ul {
 
 /* our Mission Section */
 .mission {
-    color:white;
+    color: white;  
     width: 100%;
-    height: 600px;
-    background: linear-gradient(rgba(36, 36, 36, .7), rgba(36, 36, 36, .75)),
+    height: 100vh;
+    background: linear-gradient(rgba(36, 36, 36, 0.5), rgba(36, 36, 36, 0.5)),
         url("mission.jpg");
-    /*display:flex;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-bottom: 4rem;
+    display: flex;
     justify-content: center;
-    align-items:center;*/
+    align-items: center;
+}
 
+.mission h1 {
+    font-size:80px;
+}
+
+.mission h2 {
+    margin: 10px;
 }
 
 .text-pad{
@@ -179,13 +214,12 @@ margin-left:25px;
 }
 
 .title {
-    font-family: EuclidCircular, sans-serif;
-    text-transform: uppercase;
-    font-size: 30px;
+    font-size: 70px;
     font-weight: 550;
     display: block;
+    text-transform:none;
     text-align: center;
-    color:dimgray;
+    color:#cdeff8;
     padding-top:100px;
 }
 
@@ -299,12 +333,16 @@ h2 {
     font-family: Arial, Verdana;
     font-weight: 800;
     font-size: 2.5rem;
-    color: #091f2f;
+    color:#cdeff8;
     text-transform: uppercase;
     text-align: left;
 }
 
-.accordion-section .panel-default > .panel-heading {
+.accordion p {
+    color:#cdeff8;
+}
+
+.accordion-section .panel-default .panel-heading {
     border: 0;
     background: #f4f4f4;
     padding: 0;
@@ -332,6 +370,7 @@ h2 {
 
 .accordion-section .panel-default .panel-body {
     font-size: 1.2rem;
+
 }
 
 .arrow{
@@ -346,3 +385,14 @@ h2 {
     font-family:sans-serif;
 }
 
+hr {
+    background-color:#cdeff8;
+}
+
+.video {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    background:#232a34;
+}
